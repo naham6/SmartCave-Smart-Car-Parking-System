@@ -40,7 +40,7 @@ A smart parking solution built with **ESP32** that monitors parking slot availab
 | **Servo Signal** | GPIO 13 | Gate Control |
 | **Green LED** | GPIO 12 | Gate Open Indicator |
 | **Red LED** | GPIO 4 | Parking Full Indicator |
-
+Yo can change the ports according to your convinience.
 ## Libraries Required
 
 Install these libraries via the Arduino IDE Library Manager:

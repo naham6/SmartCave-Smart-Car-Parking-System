@@ -1,8 +1,8 @@
-# 🚗 IoT Smart Parking System (ESP32 + Blynk)
+#  SmartCave: A Smart Parking System (ESP32 + Blynk)
 
 A smart parking solution built with **ESP32** that monitors parking slot availability in real-time. It features an automated entry gate, local LCD status display, and cloud connectivity via the **Blynk IoT App**.
 
-## 🌟 Features
+## Features
 
 * **Real-time Slot Monitoring:** Uses 4 IR sensors to detect parking availability.
 * **Automated Gate Control:** Opens automatically for entering cars (if slots are free) and exiting cars.
@@ -24,7 +24,7 @@ A smart parking solution built with **ESP32** that monitors parking slot availab
 * **Indicators:** Red & Green LEDs
 * **Power Supply:** 5V External power (recommended for Servo)
 
-## 🔌 Pinout / Wiring
+## Pinout / Wiring
 
 | Component | ESP32 Pin | Function |
 | :--- | :--- | :--- |
@@ -41,14 +41,14 @@ A smart parking solution built with **ESP32** that monitors parking slot availab
 | **Green LED** | GPIO 12 | Gate Open Indicator |
 | **Red LED** | GPIO 4 | Parking Full Indicator |
 
-## 📦 Libraries Required
+## Libraries Required
 
 Install these libraries via the Arduino IDE Library Manager:
 1.  **Blynk** by Volodymyr Shymanskyy
 2.  **ESP32Servo** by Kevin Harrington
 3.  **LiquidCrystal I2C** by Frank de Brabander
 
-## 📱 Blynk Configuration
+## Blynk Configuration
 
 Set up your Blynk Datastreams as follows:
 
@@ -62,7 +62,7 @@ Set up your Blynk Datastreams as follows:
 | **V5** | String | Slot 3 Status |
 | **V6** | String | Slot 4 Status |
 
-## 🚀 How to Run
+## How to Run
 
 1.  Clone this repository.
 2.  Open `SmartParking.ino` in Arduino IDE.

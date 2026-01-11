@@ -4,7 +4,7 @@ A smart parking solution built with **ESP32** that monitors parking slot availab
 
 ## Features
 
-* **Real-time Slot Monitoring:** Uses 4 IR sensors to detect parking availability.
+* **Real-time Slot Monitoring:** Uses 4 IR sensors to detect parking availability. 
 * **Automated Gate Control:** Opens automatically for entering cars (if slots are free) and exiting cars.
 * **Smart Counting:** Tracks total cars entered/exited and calculates free slots.
 * **Cloud Dashboard:** Syncs live data to the Blynk Mobile App/Web Dashboard.
